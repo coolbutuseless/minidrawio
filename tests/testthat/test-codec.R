@@ -1,0 +1,13 @@
+test_that("codec for stencil definition works", {
+
+
+  encoded <- "jVbLbhsxDPwaX2lJFCXx0FOQDwkQtzba2oHjvv6+Iyu75RoiUMBAvPEsRQ5nSO346f348nbYpfB+u16+Hn6dXm/HT7uUTufj4Xq64duOn3f89PlyPXy5Xn6cX8fz28vtOL59v/zs7//ubwUKob+Swp/+qIVixt/9QH47nQ0yNovMpOwhS/9ljZmo1TmSqdrTW6PSz5icXkjExGxCXObIGCn0Epbjq1Luh0yCxkKlZ7ZCE0WdQxOKAG6FlkypJzSJmpSSrV+EqsMUCxVbVq7Uj5hFzWnbKW6UHa4QJfQylrI4DJonuUokttCEjjhRJVPtlC9RY6PktFXqUNEKZVKnBaIUNlHDSGiSa0EZ0SRQqThBS6JkJSAuq4Up214xiVM+Gp57a5aacIRTfREKPciCjOPFWUUyerggAzVHU4jZbO2BpD/OYhYKW2TyKiqUrPswChxLlULZ+uRjaMxPb/8ZE1LfIt08KzUrkUDq1d5Itz26T4JJnhUE2tMhe4f5CuPbboI0Z0BW9MjmqSSO7TGS2PIZITuH+sZb28dK6oyohmlmVQ8ve+VroGjnToKXHU6ViS2nzO6GUBk2X+TMcKjDgNZB+ALNMIkHxYSwgs4wosOA6hgJa9RC1TFpDA+bLzfX+gh7X2BrWCV1NKBt69M+X53OYtWylaCAWMepmkjslMZGcfUCs9iBJlgTTgItPigbG8bpQc3bRYmBIF0UE2cVLB9bVgUDDlmY/ckapoIRp7PgceNs5M4OWRk2tAzgquBdPzJGiXVMU3f7QcubWwVsER2y4JDNpkCj792bkMWQvR0uUNp9c8+hfaXgM25qq4A/sPt/97txMVz+/3gP3I/7Iz//BQ=="
+
+  raw_text <- '<shape strokewidth="inherit"><foreground><path><move x="0.00" y="96.14"/><line x="0.18" y="94.93"/><line x="0.63" y="92.87"/><line x="3.70" y="88.68"/><line x="6.55" y="85.36"/><line x="11.04" y="79.40"/><line x="16.67" y="72.19"/><line x="22.82" y="64.25"/><line x="29.23" y="55.73"/><line x="35.65" y="47.22"/><line x="42.00" y="38.48"/><line x="47.09" y="30.70"/><line x="51.39" y="23.78"/><line x="54.76" y="18.27"/><line x="57.14" y="13.90"/><line x="59.06" y="10.39"/><line x="60.71" y="7.60"/><line x="62.24" y="5.22"/><line x="63.43" y="3.58"/><line x="64.42" y="2.27"/><line x="65.08" y="1.42"/><line x="65.48" y="0.85"/><line x="65.81" y="0.51"/><line x="66.01" y="0.28"/><line x="66.20" y="0.06"/><line x="66.47" y="0.00"/><line x="66.80" y="0.06"/><line x="67.20" y="0.28"/><line x="67.86" y="0.91"/><line x="68.92" y="2.04"/><line x="70.50" y="3.75"/><line x="72.88" y="6.24"/><line x="75.86" y="9.53"/><line x="79.37" y="13.56"/><line x="83.00" y="17.99"/><line x="86.64" y="23.04"/><line x="90.15" y="28.21"/><line x="93.32" y="33.14"/><line x="95.90" y="37.63"/><line x="97.75" y="41.43"/><line x="99.01" y="44.49"/><line x="99.60" y="46.77"/><line x="100.00" y="48.58"/><line x="99.87" y="49.94"/><line x="98.81" y="51.36"/><line x="96.30" y="53.18"/><line x="92.59" y="55.56"/><line x="87.83" y="58.46"/><line x="81.88" y="62.03"/><line x="74.67" y="66.52"/><line x="67.00" y="71.34"/><line x="59.26" y="76.39"/><line x="51.92" y="81.38"/><line x="45.83" y="85.87"/><line x="40.94" y="89.78"/><line x="37.04" y="93.13"/><line x="33.42" y="96.59"/><line x="31.48" y="99.09"/><line x="31.22" y="100.00"/></path><stroke/></foreground></shape>'
+
+
+  expect_identical(raw_text, decode(encode(raw_text)))
+  expect_identical(encoded, encode(decode(encoded)))
+
+
+})

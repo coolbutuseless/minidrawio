@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="5.0 (Macintosh)" version="12.9.12" type="device">
+  <diagram id="aaa">
+    <mxGraphModel dx="1212" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="drawio-wNufypHs" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF00;strokeColor=none;strokeWidth=0;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="drawio-wTFKcapP" value="&lt;font color='#0000FF'&gt;Hello Rstats&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=top;rounded=0;rotation=0;fontSize=50;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="drawio-MRKvwRDk" value="" style="endArrow=none;html=1;strokeColor=#000000;dashed=0;opacity=100;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry width="101" height="101" as="geometry" relative="1">
+            <mxPoint x="100" y="100" as="sourcePoint" />
+            <mxPoint x="200" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drawio-jPMQTYch" value="" style="ellipse;html=1;aspect=fixed;strokeColor=none;strokeWidth=0;fillColor=#FF0000;opacity=100;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="drawio-vqafWbtv" value="" style="shape=stencil(lVC7DsMwCPwaZrv23CnKh0QKCaiuHTn09feNg+NW3bodx3EHgO9WGhYEZ1fJ6YIPHoXO4BxHwsyyoa1HyDNJoZ21SjVhZXwPvptSxjmnWxxhr5dBSNE13UvIs3hUh9cXNqoKHJvqdCT9pWtT1dF8Vpg4BD3y6P2ua/QXvn8D);strokeColor=#000000;strokeWidth=1;fillColor=none;opacity=100;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
